@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <title>Administar mi negocio</title>
+    <meta charset="utf-8">
+    <source src="C:\Users\silvia\Documents\admin negocio\css\styles.css" type="css">
+    <link rel="stylesheet" href="C:\Users\silvia\Documents\Proyecto\admin_local\admin negocio\css\styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        alert("ADMIN MI NEGOCIO app diseñada para gestionar su negocio");
+        $("#boton2").click(function(){
+            var nombre= $("#itemail").val();
+            var correo= $("#itcontrasena").val();
+
+            if (nombre=="") {
+                $("#mensaje1").fadeIn();
+                return false;
+            }
+        });
+        
+    });
+    
+    </script>
+    <style type="text/css">
+        body{
+        background: url(https://videomaven.tech/wp-content/uploads/2019/05/Twitch-Gaming-Console-Giveaway.jpg);
+            top: 300px;
+            background-repeat:no-repeat;
+            background-size: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="logo"> <img src="C:\Users\silvia\Documents\admin negocio\img\admin_logo.png"></div> 
+
+<div id="contenedorformindex">
+    <h3>Email:</h3> <br>
+    <input type="email" name="email"> <br>
+    <br>
+    <h3>Contraseña</h3> <br>
+    <input type="text" name="contrasena"> 
+    <br> <br>
+    <input id="boton2"class="boton" onclick=" location.href='file:///C:/Users/silvia/Documents/admin%20negocio/home.html' " value="Iniciar sesion" name="boton" />
+</div>
+
+<div id="contenedorform1index">
+    <h3>Nombre:      <input type="text" name=""></input></h3><br>
+    <h3>Apellido: <input type="text" name=""></input></h3><br>    
+    <h3>Email: <input type="Email" name=""></input></h3><br>
+    <h3>Numero celular:<input type="text" name=""></input></h3><br>    
+    <h3>Nombre Local:<input type="text" name=""></input></h3><br>
+    <h3>Direccion:<input type="text" name=""></input></h3><br>
+    <h3>Descripccion:<br><textarea name="" id="" cols="30" rows="10"></textarea></h3><br>
+    <button id="boton1"class="boton" href="file:///C:/Users/silvia/Documents/admin%20negocio/home.html">Registrarse</button>
+    </div>       
+</div>
+</body>
+ <footer>
+
+</footer>
+</html>

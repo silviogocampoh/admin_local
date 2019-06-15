@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <title>Administar mi negocio</title>
+    <meta charset="utf-8">
+    <source src="C:\Users\silvia\Documents\admin negocio\css\styles.css" type="css">
+    <script type="text/javascript" src="C:\Users\silvia\Documents\admin negocio\jquery\jquery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        alert("acontinuacion vera sus articulos");
+
+        $('#mostrar').click(function(){
+            $('#contenedor','#contenedorform').fadeIn(1000); 
+        })
+    });
+    $(document).ready(function(){
+        $('#mostrar').click(function(){
+            $('#contenedor','#contenedorform').fadeIn(1000);
+    })
+    });
+
+    </script>
+    <style type="text/css">
+        body{
+        background: url(https://devideojuegosretro.com/wp-content/uploads/2018/10/consolas-de-videojuegos-retro.jpg);
+            background-size: 100% 600px;
+        }
+        #img1{
+            height: 50px;
+
+        }
+        #contenedor{
+            background: rgba(0,0,0,0.5);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            
+        }
+        #contenedorform{
+            text-align: center;
+            position: absolute;
+            left: 500px;
+            top: 10px;
+            background: lightblue;
+            padding: 20px;
+            border-radius: 10px;
+            
+        }
+
+        #contenedorform1{
+            text-align: center;
+            position: absolute;
+            left: 750px;
+            top: 60px;
+            background: lightblue;
+            padding: 50px;
+            border-radius: 30px;
+            display: none;
+        }
+
+        #pie{
+           text-align: center;
+            top: 10000px;
+            left: 750px;
+            top: 60px;
+            background: lightblue;
+            padding: 50px;
+            border-radius: 30px;
+            display: none; 
+        }
+    }
+    </style>
+</head>
+<body>
+    
+<div id="contenedorform">
+    <table border="2px" summary="Tabla con los datos de los resultados de la búsqueda">
+  <caption>Articulos en Stock</caption>
+  <tr>
+    <th abbr="control ps4" scope="col">Articulo</th>
+    <th abbr="xbox one" scope="col">Descripcion</th>
+  </tr>
+
+  <tr>
+    <td>
+      <img id="img1"src="https://media.aws.alkosto.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/d/u/dualshock-4-blue.jpg" alt="control ps4" /> <br>control ps4
+    </td>
+    <td>
+      <h4><a>control ps4 inalambrico original</a></h4>
+      <p><a>cantidad disponible=</a> 8 costo venta= 120000</strong></p>
+      <button>comprar</button> <button>vender</button> <button>informacion provedor</button>
+    </td>
+    </tr>
+
+  <tr>
+    <td><img id="img1" src="data:image/jpeg;base64,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" alt="Imagen xbox one" /><br> consola xbox one</td>
+    <td>
+      <h4><a >Xbox one S- slim 4k - 500 GB</a></h4>
+      <p><a>Disponibles=9</a> precio de venta= 980000</p>
+      <button>comprar</button> <button>vender</button> <button>informacion provedor</button>
+    </td>
+  </tr>
+
+  <tr>
+    <td><img id="img1" src="https://http2.mlstatic.com/playstation-4-slim-ps4-1tb-nuevo-en-project-games-D_NQ_NP_859393-MLM27169574209_042018-F.jpg"><br>consola ps4</td>
+    <td>
+      <h4><a>play station 4- slim - 1 tera almacenamiento</a></h4>
+      <p><a>cantidad disponible=10</a> costo de venta=1339000</p>
+      <button>comprar</button> <button>vender</button> <button>informacion provedor</button>
+    </td>
+  </tr>
+
+  <tr>
+    <td><img id="img1"src="https://images-na.ssl-images-amazon.com/images/I/71WX6wVepIL._SX466_.jpg"><br>contro xbox one</td>
+    <td>
+      <h4><a>control original- xbox one- segunda generacion - color blanco</a></h4>
+      <p><a>Cantidad disponible=12</a> precio de venta= 168000</p>
+      <button>comprar</button> <button>vender</button> <button>informacion provedor</button>
+    </td>
+  </tr>
+</table>
+</div>
+
+<div id="contenedorform1">
+    Nombre: <br>
+    <input type="text" name=""><br>
+    Apellido: <br>
+    <input type="text" name=""><br>
+    Email: <br>
+    <input type="Email" name=""><br>
+    Numero celular: <br>
+    <input type="text" name=""><br>
+    Nombre Local: <br>
+    <input type="text" name=""><br>
+    Direccion: <br>
+    <input type="text" name=""><br>
+    Descripccion: <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+    <button type="sumbit" value="Enviar" name="" href="file:///C:/Users/silvia/Documents/admin%20negocio/home.html">Registrarse</button>
+
+</div>       
+
+</div>
+</body>
+ <footer>
+    <div id="pie">ingrese su nombre y contraseña para acceder a la informacion de su local comercial para mas ayuda comuniquese con la linea 23456789 o al correo ayuda@gmail.com</div>
+        </div></footer>
+</html>
